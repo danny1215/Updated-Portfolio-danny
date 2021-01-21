@@ -1,0 +1,77 @@
+/* h1 style */
+h1 {
+   padding: 5px;
+    border: 10px 5px ;
+    margin: 20px 0px 50px 0px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+/* body style */
+body {
+    overflow-x: hidden;
+  }
+   
+/* row style */
+.row{
+    content: 10px 10px;
+    padding-bottom: 5px;
+    border: 5px 5px 5px 5px;
+    margin:1px;
+    color: blue;
+   
+}
+/* form row style */
+.form-row{
+   padding-left:25px;
+   padding-top: 10px;
+   color: white;
+   font-style: italic;
+   font-weight: bolder;
+}
+/* sorm group style */
+.form-group{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+ 
+
+/* jumbotron style */
+.jumbotron-ch{
+    background-color: black;
+    font-size: 15px;
+    border-radius: .3rem;
+    color: white;
+}
+/* image style */
+img {
+    height: 150px;
+    width: 150px;
+  }
+/* footer style */
+footer {
+    padding-bottom: 5px;
+    font-size: 15px;
+    position: fixed;
+    left: 0px;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+/* body style */
+body{
+    background-image: url(../images/danny1.jpg);
+}
+/* invalidCheck style */
+#invalidCheck{
+
+color: white;
+}
+
+
+

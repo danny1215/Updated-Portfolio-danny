@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!--meta tag for responsive page -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link to external style css-->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <!--i link my html to bootstrap cdn-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!--google font external stylesheet-->
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,700&display=swap" rel="stylesheet">
+    <title>portfolio</title>
+  </head>
+
+  <body>
+    <!--header tag with jumbotron-ch class and also a nav sementic header tag-->
+    <header>
+      <div class="jumbotron-ch">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <span class="navbar-brand mb-0 h1">Daniel Mestawat</span>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="./index.html">About<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="./portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+              
+            </ul>
+          </div>
+           <!-- dropdown menu button -->
+          <div class="dropdown show">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Contact-link
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="https://github.com/danny1215">Github link</a>
+              <a class="dropdown-item" href="https://www.linkedin.com/in/daniel-mestawat-5280691b6/">Linkden-link</a>
+              <a class="dropdown-item"href="mailto:YourMail@Mail.com/">E-Mail me</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section>
+      <div class="row">
+        <!--div class tag with a row and 12 columns and md screen-->
+        <div class="col-md-12">
+          <div>
+            <!--h1 tag-->
+            <h1>Portfolio</h1>
+          </div>
+        </div>
+      </div>
+    </section>  
+      <!-- a class Container section -->
+    <section class="container">
+      <div class="row">
+          <!--div tag with class=card that consists 3 columns-->
+        <div class="col-md-3">
+          <div class="card">
+            <!--image tag-->
+            <img src="./assets/images/danny-certificate.png" class="card-img-top" alt="my certification">
+            <div class="card-body">
+              <!--p tag-->
+              <p class="card-text">Mulesoft Certified</p>
+            </div>
+          </div>
+        </div>
+        <!--div tag with class=card that consists 3 columns-->
+        <div class="col-md-3">
+          <div class="card">
+            <!--image tag-->
+            <img src="./assets/images/image3.png" class="card-img-top" alt="Travel Guide Project">
+            <div class="card-body">
+                  <!--p tag-->
+              <p class="card-text">Travel Guide</p>
+            </div>
+          </div>
+        </div>
+          <!--div tag with class=card that consists of 3 columns-->
+        <div class="col-md-3">
+          <div class="card">
+            <!--image tag-->
+              <img src="./assets/images/dubai_image_0.jpg" class="card-img-top" alt="Boat rental image">
+            <div class="card-body">
+                <!--p tag-->
+                <p class="card-text">Dubai Home Travel Guide</p>
+            </div>
+          </div>
+        </div>
+          <!--div tag with class=card that consists 3 columns-->
+        <div class="col-md-3">
+          <div class="card">
+            <!--image tag-->
+              <img src="https://www.lavanguardia.com/r/GODO/LV/p4/WebSite/2017/12/13/Recortada/img_lbernaus_20171213-160813_imagenes_lv_terceros_istock-586391832-kB8D-U433609119538ujF-992x558@LaVanguardia-Web.jpg" class="card-img-top" alt="Russia image">
+          <div class="card-body">
+              <!--p tag-->
+              <p class="card-text"> future destination Russia</p>
+          </div>
+        </div>
+      </div>
+    </div> 
+
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="https://www.ethiopiaonlinevisa.com/wp-content/uploads/sites/31/2019/06/addis-ababa-capital-ethiopia-1280x720.jpg" alt="Ethiopia image">
+        <div class="card-body">
+          <h5 class="card-title"> Future Destination Ethiopia</h5>
+          <p class="card-text"></p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="https://www.studying-in-germany.org/wp-content/uploads/2013/02/how-to-study-in-germany.jpg" alt="Germany image">
+        <div class="card-body">
+          <h5 class="card-title"> Future Destination Germany</h5>
+          <p class="card-text"></p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="https://afar-production.imgix.net/uploads/images/afar_post_headers/images/AaiDxuPdl8/original_italy_20reopening_20june_203.jpg" alt="Italy image">
+        <div class="card-body">
+          <h5 class="card-title">Future Destination Italy</h5>
+          <p class="card-text"></p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+      </section>
+        <!--footer tag-->
+        <footer class="footer">
+          <div class="container">
+            <span>Daniel Mestawat &copy; 2020 all rights reserved!</span>
+          </div>
+        </footer>
+        
+          
+        
+        <!--javascript tag-->
+        <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+  </body>
+</html>
+
+
+
+
