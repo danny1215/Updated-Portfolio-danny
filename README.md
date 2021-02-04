@@ -27,10 +27,8 @@ This Application can be used in any browser available. The purpose of this Web p
 
 ## SCREENSHOTS
 
-![_C__Users_User_Desktop_Updated-Portfolio-danny_contact html (1)](https://user-images.githubusercontent.com/59859358/105257236-5b79f880-5b55-11eb-82a6-e1836e21c920.png)
+![Screenshot (159)](https://user-images.githubusercontent.com/59859358/106826034-0ad5c580-6654-11eb-895f-58ed98a9a71d.png)
 
-![_C__Users_User_Desktop_Updated-Portfolio-danny_index html (2)](https://user-images.githubusercontent.com/59859358/105257240-5d43bc00-5b55-11eb-97fd-307d405d7fa0.png)
+![Screenshot (157)](https://user-images.githubusercontent.com/59859358/106826022-07423e80-6654-11eb-9814-ac82ced16dcc.png)
 
-![_C__Users_User_Desktop_Updated-Portfolio-danny_portfolio html (1)](https://user-images.githubusercontent.com/59859358/105257245-5f0d7f80-5b55-11eb-94d2-a3ae6358a88e.png)
-
-![_C__Users_User_Desktop_Updated-Portfolio-danny_contact html (2)](https://user-images.githubusercontent.com/59859358/105257248-616fd980-5b55-11eb-8d53-5c09d2aa4a7e.png)
+![Screenshot (158)](https://user-images.githubusercontent.com/59859358/106826027-090c0200-6654-11eb-8790-80adb155b5cb.png)
